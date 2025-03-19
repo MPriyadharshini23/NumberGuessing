@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    background-color: teal;
+    line-height: 1.0;
+
+}
+.logo{
+    font-size: 50px;
+    font-weight:300;
+    color: white;
+}
+.button{
+    background-color:whitesmoke;
+    color: black;
+    height: 50px;
+    width: 140px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: whitesmoke;
+    color: teal;
+}
+input{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.3e;
+    border-radius: 20px;
+    color: black;
+    border: solid black 3px;
+}
+#input_container{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#submit{
+    margin-left: 15px;
+    margin-top: 1.5px;
+    color: black;
+    border: solid black 3px;
+
+}
+#message{
+    display: none;
+    font-size: 1.5em;
+    background-color: lightcoral;
+    color: black;
+    padding: 5px 15px;
+}
+#lives-text{
+    font-size: 2em;
+    font-weight: 500;
+}
